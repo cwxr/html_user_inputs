@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>General Assembly Account Creation</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <img src="general_assembly_logo.png" alt="Logo">
+      <h1>General Assembly Account Creation</h1>
+      <p>Welcome to the General Assembly. General Assembly is a global
+      institution training people all over the world in today's top
+      technologies.</p>
+
+      <p>Please fill out the information below to create your General Assembly
+      account. Let us know what city you're in and what course
+      you're taking. This list is for all students. Please tell us what
+      city you're in and whether you're taking the Immersive User Experience (UX)
+      course or the Immersive Web Development course.</p>
+    </div>
+
+
+  <form class="" action="success.html" method="get">
+
+    City
+    <select name="City">
+    <option value="hongkong">Hong Kong</option>
+    <option value="london">London</option>
+    <option value="losangeles">Los Angeles</option>
+    <option value="newyork">New York</option>
+    <option value="portland">Portland/option>
+    <option value="sanfrancisco">San Francisco</option>
+    <option value="seattle">Seattle</option>
+    <option value="singapore">Singapore</option>
+  </select>
+  <br>
+  <br>
+
+  Course:
+  <input type="radio" name="UX" value="UX"> UX
+  <input type="radio" name="webDev" value="webDev"checked> Web Dev
+  <br>
+  <br>
+<div class="form-group">
+  <label for="name">Name</label>
+  <input type="text" name="name">
+</div>
+
+<div class="form-group">
+  <label for="email">Email</label>
+  <input type="text" name="email">
+</div>
+
+<input type="submit" name="submit" value="submit">
+
+<br>
+<br>
+
+  <label for="password">Password</label>
+  <input type="password" name="password">
+  <br>
+  <br>
+  <input type="checkbox" name="subscribeMe" value="subscribe"checked>Yes, subscribe me to the General Assembly student newsletter
+  <br>
+  <br>
+  <input type="submit" value="subscribe">
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
+
+
+<footer>
+  <div class="container">
+    <p>Made by WDI9</p>
+  </div>
+</footer>
+  </body>
+</html>
